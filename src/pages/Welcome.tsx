@@ -64,6 +64,7 @@ const Welcome = () => {
     setCategory(transaction.category);
     setDate(transaction.date);
     setEditId(id);
+    setOpenModal(true);
   };
 
   const handleDeleteTransaction = (id: number) => {
